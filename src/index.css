@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cormorant Garamond", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --color-accent: #c5a880;
+  --color-bg-base: #09090a;
+  --color-bg-surface: #121214;
+  --color-text-muted: #8e8e93;
+}
+
+/* Custom styles for luxury details */
+html {
+  scroll-behavior: smooth;
+  background-color: #09090a;
+  color: #f4f4f5;
+}
+
+body {
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #09090a;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c5a880;
+}
+
+/* Base styles for Details/Summary */
+details summary::-webkit-details-marker {
+  display: none;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Aura",
+  "description": "Minimalist luxury photography portfolio showcasing editorial, fashion, and portrait work.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
